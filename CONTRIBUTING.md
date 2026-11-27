@@ -10,7 +10,7 @@ Thanks for helping. This guide is short on purpose. Read it once before your fir
 2. **Open source before writing from scratch.** If another project already does the job well, use
    it. If it needs a fix, send the fix to that project as a pull request.
 3. **One job per resource.** Do not add small one-off fix scripts. A fix goes into the resource it
-   belongs to. Shared helpers go into `dps_core`.
+   belongs to. Shared helpers go into `dps_lib`.
 4. **Built on Qbox.** Use `qbx_core` and Overextended (`ox_lib`, `oxmysql`, `ox_target`,
    `ox_inventory`). Do not add bridges for ESX or QBCore.
 5. **Every change goes through a pull request.** Nobody pushes straight to `main`.
@@ -34,10 +34,16 @@ Enhanced changed some behaviour that Legacy scripts relied on. Check each of the
 The full list is on the Cfx page
 [What's Changed in FiveM for GTAV Enhanced](https://docs.fivem.net/docs/developers/legacy-vs-enhanced/).
 
+## Where things live
+
+Every DPS resource is a folder in one repository,
+[DPS-Enhanced/dps-enhanced](https://github.com/DPS-Enhanced/dps-enhanced), under `resources/[dps]/`.
+Send pull requests there. We do not make a new repository for each resource.
+
 ## Resource layout
 
 ```
-dps_name/
+resources/[dps]/dps_name/
   fxmanifest.lua     fx_version 'cerulean', game 'gta5', lua54 'yes'
   config.lua         everything a server owner may change, with a comment on each line
   client/            client scripts

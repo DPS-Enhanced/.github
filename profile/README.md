@@ -6,7 +6,7 @@
 <br/>
 
 <!-- The one action in orange; the rest calm navy -->
-[![Resources](https://img.shields.io/badge/browse_resources-ff7a45?style=for-the-badge&logo=github&logoColor=white&labelColor=ff7a45)](https://github.com/orgs/DPS-Enhanced/repositories)
+[![Get the pack](https://img.shields.io/badge/get_the_pack-ff7a45?style=for-the-badge&logo=github&logoColor=white&labelColor=ff7a45)](https://github.com/DPS-Enhanced/dps-enhanced)
 [![DelPerroSands](https://img.shields.io/badge/delperrosands.com-141a28?style=for-the-badge&logo=rockstargames&logoColor=ff7a45)](https://delperrosands.com)
 [![DaemonScripts](https://img.shields.io/badge/daemonscripts.com-141a28?style=for-the-badge&logo=google-chrome&logoColor=ff7a45)](https://daemonscripts.com)
 [![Licence](https://img.shields.io/badge/licence-GPL--3.0-141a28?style=for-the-badge&labelColor=141a28&color=ff7a45)](https://github.com/DPS-Enhanced/.github/blob/main/LICENSE)
@@ -60,28 +60,29 @@ If a resource needs something, it is either open source or we write it. You neve
 
 <br/>
 
+**Everything is in one place: [DPS-Enhanced/dps-enhanced](https://github.com/DPS-Enhanced/dps-enhanced).**
+
+One download holds every DPS resource, the install steps and the guides.
+You do not need to collect scripts from many repositories.
+
 **Early days.** We are moving the Del Perro Sands scripts to Enhanced one at a time.
-A resource is marked **Ready** only after it has started cleanly and been played on our Enhanced test server.
+The pack's README lists each resource only after it has started cleanly on our Enhanced test server.
 
 </div>
 
-| Resource | What it does | Status |
-|---|---|---|
-| `dps_core` | Shared base every DPS resource uses: Qbox calls, notices, theme, database helpers | Planned |
-| `dps_fleet` | Vehicle browser and workshop on one panel, with self-service repair when no mechanic is on | Planned |
-| `dps_inventory` | ox_inventory with the DPS look, wearable bags and item rules | Planned |
-| `dps_trains` | Trains on a timetable, with boarding, seats and arrival boards | Planned |
-| `dps_parking` | Parking with valet, impound, tickets and reserved spots | Planned |
-| `dps_fuel` | Pay after you fill, fuel theft and drive-offs | Planned |
-| `dps_shops` | Shop clerks who greet and react to robberies, and shops players can own | Planned |
-| `dps_studio` | Build the rooms players use every day from one admin panel | Planned |
-| `dps_proracing` | Race lobbies, pit crews and a live leaderboard | Planned |
-| `dps_cityworker` | City worker career: repairs, contracts and crews | Planned |
-| `dps_towjob` | Queue-based tow job | Planned |
-| `dps_vehiclepersistence` | Vehicles stay where they were parked | Planned |
-| `dps_ainpcs` | NPCs you can talk to, with trust, quests and intel | Planned |
+| In the pack | What it is |
+|---|---|
+| [Resource list and status](https://github.com/DPS-Enhanced/dps-enhanced#status) | What is ready today |
+| [Install steps](https://github.com/DPS-Enhanced/dps-enhanced#install) | Five steps to add the pack to a server |
+| [Add a script](https://github.com/DPS-Enhanced/dps-enhanced/blob/main/docs/add-a-script.md) | How to drop a script in, or write your own |
+| [Change the look](https://github.com/DPS-Enhanced/dps-enhanced/blob/main/docs/change-the-look.md) | Change the colours once for every DPS resource |
 
-More resources follow as they are converted.
+**Coming, as each one is converted and tested:** vehicle browser and workshop, inventory with
+wearable bags, trains on a timetable, parking, fuel theft and drive-offs, shop clerks and owned
+shops, room building, pro racing, city worker career, tow job, vehicle persistence and talking NPCs.
+
+The other repositories in this organisation are our copies of other people's open-source resources
+that we have fixed for Enhanced. Each fix is also sent back to its original project.
 
 <div align="center">
 
@@ -117,8 +118,8 @@ Each resource lists anything extra it needs in its own README.
    been played on an Enhanced server.
 5. **Every change goes through a pull request.** Nothing is pushed straight to `main`.
 
-**Names.** New resources use an underscore, `dps_fleet`, to match the Qbox style and mark them as the
-Enhanced versions. The older `dps-` repositories (with a hyphen) under
+**Names.** Resources in the pack use an underscore, `dps_lib`, to match the Qbox style and mark them
+as the Enhanced versions. The older `dps-` repositories (with a hyphen) under
 [DaemonAlex](https://github.com/DaemonAlex) were written for FiveM Legacy. They are kept for their
 history and are not maintained.
 
